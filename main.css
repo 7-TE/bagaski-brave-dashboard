@@ -1,0 +1,121 @@
+body {
+  background-color: #000000;
+  background-image: url('photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Poppins", "Segoe UI", "Helvetica Neue", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", sans-serif;
+  color: white;
+  margin: 20px;
+}
+
+#container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 90vh;
+}
+
+#top-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#show-stats {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#stat-ads h1 {
+  color: #ff5137;
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+#stat-https, #stat-ads {
+  margin-right: 15px;
+}
+
+#stat-https h1 {
+  color: #a0a6e6;
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+#stat-secs h1 {
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+#time {
+  font-size: 4rem;
+  margin-top: 0px;
+}
+
+.visited {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#mid-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#show-visited {
+display: flex;
+flex-direction: row;
+}
+
+.visited {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*
+.visited img {
+  text-align: center;
+}
+*/
+
+.imglogo {
+  text-align: center;
+}
+
+#rewards {
+  font-size: 12px;
+  width: 260px;
+  background-color: #212529;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#rewards h1 {
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+#rewards a {
+  color: #ff5137;
+  text-decoration: none;
+}
+
+#rewards a {
+  color: #ff5137;
+  text-decoration: none;
+}
+
+footer {
+display: flex;
+align-items: stretch;
+font-size: 12px;
+}
